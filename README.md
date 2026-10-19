@@ -23,8 +23,11 @@ para verificar resultados ou prosseguir com o desenvolvimento.
 
 Após reset, leia este README e depois [STATUS](STATUS.md); consulte os detalhes
 dos projetos atuais apenas quando necessários à ação. Registre somente decisões
-importantes, blocos fechados e novas pendências, com versão, limite de evidência
-e próximo passo. Consolide incrementalmente uma vez por semana se houver novidades;
-antes de reset antecipado, faça a atualização final mínima. Sem novidade, não
+importantes, blocos fechados e novas pendências: data, mudança e motivo,
+evidência ou commit, próximo passo e quando revalidar. Revalide só por mudança
+relevante de fonte/versão/ambiente, falha nova ou evidência incerta, nunca só por
+reset. Leitura integral do histórico não é obrigatória na retomada rotineira.
+Consolide incrementalmente uma vez por semana se houver novidades;
+antes de reset antecipado, atualize só os deltas. Sem novidade, não
 republique o histórico nem repita testes para alimentar contexto. Este plano não
 cria automação; não dispensa instruções obrigatórias dos projetos de origem.
